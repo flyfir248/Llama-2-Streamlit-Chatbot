@@ -97,7 +97,6 @@ if uploaded_file:
                 message(st.session_state["generated"][i], key=str(i), avatar_style="thumbs")
 
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+
 
 
